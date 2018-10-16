@@ -1,14 +1,56 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.gstatic.com');
 
 // Variables
-@import 'variables';
+@import 'partials/variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// Navbar
+@import 'partials/navbar';
+
+.footie {
+    background-color: $myblue;
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 75px;
+}
+
+.featurie {
+    background-color: $myblue;
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 75px;
+}
+
+.searchie {
+    background-color: $myblue;
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 75px;
+}
+
+.btn{
+    background-color: $myyellow;
+    color: $myblue;
+}
+
+.btn-secondary{
+    background-color: $myyellow;
+    color: $myblue;
+}
+
+.btn-block {
+    background-color: $myyellow;
+    color: $myblue;
+}
+
+.jumbotron {
+    background-color: $myred;
 }
